@@ -4,15 +4,10 @@ import Header from './../header';
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from "next/link"
-import styled from "styled-components"
 
 import { useRouter } from "next/router"
 import ga from "../lib/ga";
 
-
-const Container = styled.div`
-  text-align: center;
-`;
 
 const Home: NextPage = () => {
   return (
